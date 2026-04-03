@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Supino",
+    "grupo": "peito",
+    "tempo": 30,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Crucifixo",
+    "grupo": "peito",
+    "tempo": 20,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Tríceps Testa",
+    "grupo": "triceps",
+    "tempo": 20,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Remada",
+    "grupo": "costas",
+    "tempo": 30,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Puxada na Barra",
+    "grupo": "costas",
+    "tempo": 25,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Rosca Bíceps",
+    "grupo": "biceps",
+    "tempo": 20,
+    "nivel": 1,
+    "cargas": []
+  },
+  {
+    "nome": "Agachamento",
+    "grupo": "perna",
+    "tempo": 40,
+    "nivel": 3,
+    "cargas": []
+  },
+  {
+    "nome": "Leg Press",
+    "grupo": "perna",
+    "tempo": 35,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Panturrilha",
+    "grupo": "perna",
+    "tempo": 15,
+    "nivel": 1,
+    "cargas": []
+  },
+  {
+    "nome": "Desenvolvimento",
+    "grupo": "ombro",
+    "tempo": 25,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Elevação Lateral",
+    "grupo": "ombro",
+    "tempo": 20,
+    "nivel": 1,
+    "cargas": []
+  }
+]

@@ -105,4 +105,5 @@ Ao transformar dados básicos em recomendações úteis, o sistema oferece uma f
 ## Autores
 
 Pedro Henrique Ferreira Xavier
+
 Guxtavo Xavier Evangelista
