@@ -1,12 +1,16 @@
-#busca sequencial
 def filtrar_exercicios(lista, tamanho, grupo, tempo_max, dificuldade_max):
     resultado = []
+    grupo_lower = grupo.lower() if grupo else None
 
     i = 0
     while i < tamanho:
         elemento = lista[i]
+        grupo_valido = True
 
-        if (elemento.grupo == grupo and
+        if grupo_lower:
+            grupo_valido = elemento.grupo.lower() == grupo_lower
+
+        if (grupo_valido and
             elemento.tempo <= tempo_max and
             elemento.nivel <= dificuldade_max):
 
@@ -32,20 +36,22 @@ def busca_binaria_por_tempo(lista, tamanho, tempo):
         else:
             direita = meio - 1
 
-    return None  # ou o índice, mas para simplicidade, None se não encontrado
+    return None  
 
 
 def busca_binaria(lista, tamanho, nome):
+    nome_lower = nome.lower()
     esquerda = 0
     direita = tamanho - 1
 
     while esquerda <= direita:
         meio = (esquerda + direita) // 2
         elemento = lista[meio]
+        elemento_nome_lower = elemento.nome.lower()
 
-        if elemento.nome == nome:
+        if elemento_nome_lower == nome_lower:
             return elemento
-        elif elemento.nome < nome:
+        elif elemento_nome_lower < nome_lower:
             esquerda = meio + 1
         else:
             direita = meio - 1
