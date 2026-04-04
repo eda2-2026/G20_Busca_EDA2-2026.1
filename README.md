@@ -86,6 +86,21 @@ Esses algoritmos são responsáveis por:
 
 Embora não sejam o foco principal do projeto, eles garantem que o sistema funcione de maneira eficiente e escalável.
 
+### Algoritmos e estruturas de dados utilizados
+
+Atualmente, o sistema utiliza diferentes abordagens de busca sobre a mesma base de exercícios (arquivo `backend/exercicios.json`) para fins de comparação:
+
+- **Busca sequencial**: utilizada em operações simples como localizar um exercício para edição ou remoção.
+- **Busca binária**: aplicada sobre listas ordenadas por nome ou tempo para localizar um exercício de forma mais eficiente que a busca sequencial.
+- **Tabela hash (hashing)**: estrutura de dados usada para mapear diretamente o nome do exercício para o objeto correspondente, permitindo busca em tempo esperado constante.
+
+No menu principal do sistema (arquivo `backend/app.py`), existem opções distintas para busca por nome utilizando:
+
+- Tabela hash (estrutura de dados de dispersão)
+- Busca binária em lista ordenada
+
+Isso permite observar, na prática, o impacto da escolha do algoritmo e da estrutura de dados no comportamento do sistema.
+
 ---
 
 ## Tecnologias
