@@ -187,10 +187,10 @@ def filtrar_customizado(exercicios):
 
 def busca_por_nome(exercicios):
     nome = input("Nome do exercício para busca binária: ").strip()
-    ordenados = sorted(exercicios, key=lambda x: x.nome)
+    ordenados = sorted(exercicios, key=lambda x: x.nome.lower())
     resultado = busca_binaria(ordenados, len(ordenados), nome)
 
-    if resultado and resultado.nome == nome:
+    if resultado:
         print("Encontrado:", resultado.nome, "|", resultado.grupo, "|", resultado.tempo, "min", "| nível", resultado.nivel)
     else:
         print("Exercício não encontrado.")
