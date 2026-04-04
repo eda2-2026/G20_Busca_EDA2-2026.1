@@ -75,5 +75,40 @@
     "tempo": 20,
     "nivel": 1,
     "cargas": []
+  },
+  {
+    "nome": "Abdominal Supra",
+    "grupo": "abdomen",
+    "tempo": 15,
+    "nivel": 1,
+    "cargas": []
+  },
+  {
+    "nome": "Prancha",
+    "grupo": "abdomen",
+    "tempo": 10,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Stiff",
+    "grupo": "posterior de perna",
+    "tempo": 30,
+    "nivel": 3,
+    "cargas": []
+  },
+  {
+    "nome": "Afundo",
+    "grupo": "perna",
+    "tempo": 25,
+    "nivel": 2,
+    "cargas": []
+  },
+  {
+    "nome": "Remada Curvada",
+    "grupo": "costas",
+    "tempo": 25,
+    "nivel": 3,
+    "cargas": []
   }
 ]
