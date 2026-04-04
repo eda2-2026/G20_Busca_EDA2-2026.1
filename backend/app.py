@@ -209,6 +209,27 @@ def busca_por_nome_hash(exercicios):
     print()
 
 
+def busca_por_parte_nome(exercicios):
+    termo = input("Parte do nome do exercício para busca (sequencial): ").strip().lower()
+
+    if not termo:
+        print("Termo de busca não pode ser vazio.\n")
+        return
+
+    encontrados = []
+    for e in exercicios:
+        if termo in e.nome.lower():
+            encontrados.append(e)
+
+    if not encontrados:
+        print("Nenhum exercício encontrado contendo esse termo no nome.")
+    else:
+        print("=== Exercícios encontrados ===")
+        for e in encontrados:
+            print(e.nome, "|", e.grupo, "|", e.tempo, "min", "| nível", e.nivel)
+    print()
+
+
 def busca_por_tempo(exercicios):
     try:
         tempo = int(input("Tempo do exercício para busca binária: ").strip())
@@ -232,13 +253,14 @@ def main():
     while True:
         print("1) Listar exercícios")
         print("2) Adicionar exercício")
-        print("3) Buscar exercício por nome (tabela hash)")
-        print("4) Buscar exercício por nome (busca binária)")
-        print("5) Buscar exercício por tempo (busca binária)")
-        print("6) Editar exercício")
-        print("7) Remover exercício")
-        print("8) Filtrar customizado")
-        print("9) Sair")
+        print("3) Buscar exercício por parte do nome (busca sequencial)")
+        print("4) Buscar exercício por nome (tabela hash)")
+        print("5) Buscar exercício por nome (busca binária)")
+        print("6) Buscar exercício por tempo (busca binária)")
+        print("7) Editar exercício")
+        print("8) Remover exercício")
+        print("9) Filtrar customizado")
+        print("10) Sair")
 
         opc = input("Escolha uma opção: ").strip()
         print()
@@ -248,18 +270,20 @@ def main():
         elif opc == "2":
             adicionar_exercicio(exercicios)
         elif opc == "3":
-            busca_por_nome_hash(exercicios)
+            busca_por_parte_nome(exercicios)
         elif opc == "4":
-            busca_por_nome(exercicios)
+            busca_por_nome_hash(exercicios)
         elif opc == "5":
-            busca_por_tempo(exercicios)
+            busca_por_nome(exercicios)
         elif opc == "6":
-            editar_exercicio(exercicios)
+            busca_por_tempo(exercicios)
         elif opc == "7":
-            remover_exercicio(exercicios)
+            editar_exercicio(exercicios)
         elif opc == "8":
-            filtrar_customizado(exercicios)
+            remover_exercicio(exercicios)
         elif opc == "9":
+            filtrar_customizado(exercicios)
+        elif opc == "10":
             break
         else:
             print("Opção inválida. Tente novamente.\n")
