@@ -14,10 +14,10 @@ O sistema foi pensado para ser útil no dia a dia, ajudando na tomada de decisã
 
 Oferecer recomendações rápidas e coerentes de exercícios, permitindo que o usuário:
 
-- escolha o que treinar com base no tempo disponível  
-- mantenha consistência no treino  
-- evite regressão de carga  
-- acompanhe sua evolução de forma simples  
+- Escolha o que treinar com base no tempo disponível  
+- Mantenha consistência no treino  
+- Evite regressão de carga  
+- Acompanhe sua evolução de forma simples  
 
 ---
 
@@ -25,10 +25,10 @@ Oferecer recomendações rápidas e coerentes de exercícios, permitindo que o u
 
 O usuário informa alguns critérios básicos, como:
 
-- grupo muscular desejado  
-- tempo disponível  
-- nível de dificuldade  
-- carga alvo (opcional)  
+- Grupo muscular desejado  
+- Tempo disponível  
+- Nível de dificuldade  
+- Carga alvo (opcional)  
 
 A partir dessas informações, o sistema analisa os exercícios cadastrados e retorna sugestões que melhor se encaixam na situação atual.
 
@@ -51,11 +51,11 @@ Além disso, o sistema utiliza o histórico de cargas para recomendar progressã
 
 Cada exercício possui informações como:
 
-- nome  
-- grupo muscular  
-- duração média  
-- nível de dificuldade  
-- histórico de cargas utilizadas  
+- Nome  
+- Grupo muscular  
+- Duração média  
+- Nível de dificuldade  
+- Histórico de cargas utilizadas  
 
 Esses dados permitem que o sistema faça recomendações mais precisas e adaptadas ao usuário.
 
@@ -67,10 +67,10 @@ Esses dados permitem que o sistema faça recomendações mais precisas e adaptad
 2. O sistema filtra os exercícios disponíveis  
 3. As opções são avaliadas com base nos dados cadastrados  
 4. O sistema retorna:
-   - exercícios recomendados  
-   - melhor opção  
-   - carga sugerida  
-   - possível progressão  
+   - Exercícios recomendados  
+   - Melhor opção  
+   - Carga sugerida  
+   - Possível progressão  
 
 ---
 
@@ -80,9 +80,9 @@ O sistema utiliza algoritmos de busca para organizar e processar os dados de for
 
 Esses algoritmos são responsáveis por:
 
-- filtrar exercícios rapidamente  
-- localizar valores ideais dentro de conjuntos ordenados  
-- selecionar a melhor opção entre várias possibilidades  
+- Filtrar exercícios rapidamente  
+- Localizar valores ideais dentro de conjuntos ordenados  
+- Selecionar a melhor opção entre várias possibilidades  
 
 Embora não sejam o foco principal do projeto, eles garantem que o sistema funcione de maneira eficiente e escalável.
 
@@ -106,4 +106,4 @@ Ao transformar dados básicos em recomendações úteis, o sistema oferece uma f
 
 Pedro Henrique Ferreira Xavier
 
-Guxtavo Xavier Evangelista
+Gustavo Xavier Evangelista
