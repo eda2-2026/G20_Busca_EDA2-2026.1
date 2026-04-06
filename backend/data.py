@@ -15,6 +15,12 @@ panturrilha = Exercicio("Panturrilha", "perna", 15, 1, [])
 ombro = Exercicio("Desenvolvimento", "ombro", 25, 2, [])
 elevacao = Exercicio("Elevação Lateral", "ombro", 20, 1, [])
 
+abdominal_supra = Exercicio("Abdominal Supra", "abdomen", 15, 1, [])
+prancha = Exercicio("Prancha", "abdomen", 10, 2, [])
+stiff = Exercicio("Stiff", "posterior de perna", 30, 3, [])
+afundo = Exercicio("Afundo", "perna", 25, 2, [])
+remada_curvada = Exercicio("Remada Curvada", "costas", 25, 3, [])
+
 lista_exercicios = [
     supino,
     crucifixo,
@@ -26,5 +32,10 @@ lista_exercicios = [
     legpress,
     panturrilha,
     ombro,
-    elevacao
+    elevacao,
+    abdominal_supra,
+    prancha,
+    stiff,
+    afundo,
+    remada_curvada,
 ]
