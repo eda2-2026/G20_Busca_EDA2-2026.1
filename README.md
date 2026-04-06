@@ -2,7 +2,7 @@
 
 ## Link do vídeo ##
 
-[text](https://www.youtube.com/watch?v=6-fUCZv2oOg)
+[PROJETO 1](https://www.youtube.com/watch?v=6-fUCZv2oOg)
 
 ## Autores
 
