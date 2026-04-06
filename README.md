@@ -1,5 +1,15 @@
 ## Sistema de inteligente de Treino
 
+## Link do vídeo ##
+
+[text](https://www.youtube.com/watch?v=6-fUCZv2oOg)
+
+## Autores
+
+Gustavo Xavier Evangelista - 241025247
+Pedro Henrique Ferreira Xavier - 241025990
+
+
 ## Visão Geral
 
 Este projeto consiste em um sistema que auxilia na escolha de exercícios físicos de forma personalizada, com base em critérios definidos pelo usuário.
@@ -117,8 +127,3 @@ Ao transformar dados básicos em recomendações úteis, o sistema oferece uma f
 
 ---
 
-## Autores
-
-Pedro Henrique Ferreira Xavier
-
-Gustavo Xavier Evangelista
